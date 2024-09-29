@@ -1,0 +1,47 @@
+.q1,.q2,.q3,.q4{
+    /* text-align: center; */
+    height: 10vh;
+    background-color:#FFFFFF;
+    color: rgb(73, 71, 71);
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    border: 0.1px solid rgb(206, 201, 201);
+}
+/* #container-4 .q1 i:ho{
+    transform: rotate(45deg);
+} */
+
+.a1, .a2,.a3,.a4{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+    width: 100%;
+    padding: 20px;
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   border-radius:10px ;
+   border: 0.1px solid rgb(206, 201, 201);
+   position: relative;
+   overflow: hidden;
+   
+
+}
+.a1, .a2{
+    letter-spacing: 5%;
+    word-spacing: 50px;
+    line-height: 40px;
+}
+.a3,.a4,p{
+        word-spacing: 18px;
+    line-height: 32px;
+}

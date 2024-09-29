@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link
+    rel="icon"
+    href="./Zomato_logo.png"
+  />
+    <link rel="stylesheet" href="./zomato.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  </head>
+  <body>
+    <div id="main-container">
+      <nav>
+        <div class="nav-height">
+          <div class="left-side">
+            <div>Get the App</div>
+          </div>
+          <div class="right-side">
+            <div>Investor Relations</div>
+            <div>Add restarant</div>
+            <div>Log in</div>
+            <div>Sign up</div>
+          </div>
+        </div>
+      </nav>
+      <div class="center">
+        <div class="logo"><img src="./zomato logo.avif" alt="" /></div>
+        <div
+          class="para"
+          style="color: white; font-size: 2.5rem; word-spacing: 5px"
+        >
+          Discover the best food & drinks in Mumbai
+        </div>
+        <div class="search-bar">
+          <select name="" id="">
+            <option value="">Mumbai</option>
+            <option value="">Detect current location Using GPS</option>
+          </select>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="search"
+            placeholder="Search for restaurant, cuisine or a dish"
+            style="font-size: 1rem; padding-left: 10px"
+          />
+        </div>
+      </div>
+
+      <div id="container">
+        <section class="card">
+          <img src="./1st.avif" alt="" />
+          <div class="p">
+            <div>Order Online</div>
+            <div>Stay home and order to your door</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <img src="./2nd.avif" alt="" />
+          <div class="p">
+            <div>Dining</div>
+            <div>View the city's favourite dining ve</div>
+          </div>
+        </section>
+
+        <section class="card">
+          <img src="./3rd.avif" alt="" />
+          <div class="p">
+            <div>Nightlife and Clubs</div>
+            <div>Explore the city's top nightlife outlets</div>
+          </div>
+        </section>
+      </div>
+
+      <div id="container-1">
+        <div
+          style="
+            font-size: 2.5rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+              sans-serif;
+          "
+        >
+          Collections
+        </div>
+        <div
+          style="
+            font-size: 1.2rem;
+            margin-top: 1%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            color: rgb(130, 126, 126);
+          "
+        >
+          Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Mumbai, based on trends
+          <span style="color: #ff7e8b"
+            >All collections in Mumbai <i class="fa-solid fa-chevron-right"></i
+          ></span>
+        </div>
+
+        <section class="cards">
+          <section class="card1">
+            <img src="./1st card.avif" alt="" />
+            <div class="p1">
+              <div>Newly Opened Places</div>
+              <div>15 Places <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+          </section>
+
+          <section class="card1">
+            <img src="./2nd card.avif" alt="" />
+            <div class="p1">
+              <div>Top Trending Spots</div>
+              <div>37 Places <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+          </section>
+
+          <section class="card1">
+            <img src="./3rd card.avif" alt="" />
+            <div class="p1">
+              <div>Best Of Jio World Drive</div>
+              <div>19 Places <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+          </section>
+
+          <section class="card1">
+            <img src="./4th card.avif" alt="" />
+            <div class="p1">
+              <div>Monsoon Food Festival</div>
+              <div>13 Places <i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      <section id="container-2">
+        <div class="Popular">Popular localities in and around <span style="font-weight: bold;">Mumbai</span></div>
+        <section class="location">
+          <section class="place">
+            <div>Lower Parel</div>
+            <div style="color: rgb(97, 92, 92);margin-top:2%">
+                468 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+
+          <section class="place">
+            <div>Powai</div>
+            <div style="color: grey; margin-top:2%">
+                428 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+
+          <section class="place">
+            <div>Malad West</div>
+            <div style="color: grey; margin-top:2%">
+                927 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+
+          <section class="place">
+            <div>Borivali West</div>
+            <div style="color: grey; margin-top:2%">
+                656 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+
+          <section class="place">
+            <div>Bandra Kurla Complex</div>
+            <div style="color: grey; margin-top:2%">
+                147 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+          
+          <section class="place">
+            <div>Vashi</div>
+            <div style="color: grey; margin-top:2%">
+                644 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+          
+          <section class="place">
+            <div>Fort</div>
+            <div style="color: grey; margin-top:2%">
+                272 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+          
+          <section class="place">
+            <div>Juhu</div>
+            <div style="color: grey; margin-top:2%">
+                237 places</div>
+                <i class="fa-solid fa-chevron-right"></i>
+          </section>
+
+          <section class="place">
+            
+            <div style="display: flex;
+justify-content: center;align-items: center;">see more <i class="fa-solid fa-angle-down " style="position: absolute; left: 65%; top: 36%;"></i>
+            </div>
+          </section> 
+        </section>
+      </section>
+
+      <section id="container-3">
+        <img src="./mobile phone.avif"class="mobile" alt="">
+
+        <section class="form">
+          <div>Get the Zomato app</div>
+          <div>We will send you a link, open it on your phone to download <br>
+             the app</div>
+          <div class="button">
+            <input type="radio" name="btn" id="btn">
+            <label for="" style="gap: 5px;">Email</label>
+            <input type="radio" name="btn" id="btn" style="margin-left: 15%; ">
+            <label for="">Phone</label>
+         
+          
+        </div>
+
+        <div class="email">
+          <input type="email" placeholder="Email"  style="padding-left:3% ; font-size: 1.1rem; ">
+          <button>Share App Link</button>
+        </div>
+
+        <div style="font-size: 1.1rem; margin-top: 2%; color: rgb(182, 177, 177);">Download app from</div>
+
+        <div class="logo">
+          <img src="./gplay.webp" alt="">
+          <img src="./apple.webp" alt="">
+        </div>
+        </section>
+      </section>
+
+
+      <section id="container-4">
+        <div>Explore options near me</div>
+
+        <ul class="accordion">
+          <li>
+            <input type="radio" name="accordion" id="first">
+            <label for="first">Popular cuisines near me </label>
+
+            <div class="contents">
+              <p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMomos food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p>
+            </div>
+          </li>
+
+          <li>
+            <input type="radio" name="accordion" id="second">
+            <label for="second">Popular restaurant types near me </label>
+
+            <div class="contents">
+              <p>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meShacks near meSweet Shops near me</p>
+            </div>
+          </li>
+
+          <li>
+            <input type="radio" name="accordion" id="third">
+            <label for="third">Top Restaurant Chains</label>
+
+            <div class="contents">
+              <p>BikanervalaBiryani BluesBurger KingDomino'sDunkin' DonutsKFCKrispy KremeMcDonald'sPizza HutWOW! Momo</p>
+            </div>
+          </li>
+
+          <li>
+            <input type="radio" name="accordion" id="fourth">
+            <label for="fourth">Cities We Deliver To  </label>
+
+            <div class="contents">
+              <p>Delhi NCR Kolkata Mumbai Bengaluru  Pune Hyderabad Chennai Lucknow Kochi Jaipur Ahmedabad Chandigarh Goa Indore Gangtok Nashik Ooty Shimla Ludhiana Guwahati Amritsar Kanpur Allahabad Aurangabad Bhopal Ranchi Visakhapatnam Bhubaneswar Coimbatore Mangalore Vadodara Nagpur Agra Dehradun Mysore Puducherry Surat Varanasi Patna Udaipur Srinagar Khajuraho Neemrana Cuttack Trivandrum Haridwar Leh Pushkar Rajkot Madurai Kozhikode Alappuzha Thrissur Manipal Vijayawada Jodhpur Kota Ajmer Mussoorie Rishikesh Jalandhar Jammu Manali All delivery cities</p>
+            </div>
+          </li>
+        </ul>
+
+
+        <!-- <input class="q1">Popular cuisines near me </input>
+        <div class="a1"><p>Bakery food near meBeverages food near meBiryani food near meBurger food near meChinese food near meDesserts food near meIce Cream food near meKebab food near meMaharashtrian food near meMomos food near meMughlai food near meNorth Indian food near mePizza food near meRolls food near meSandwich food near meSeafood food near meShake food near meSichuan food near meSouth Indian food near meStreet food near me</p></div>
+    
+        <div class="q2">Popular restaurant types near me</div>
+        <div class="a2"><p>Bakeries near meBars near meBeverage Shops near meBhojanalya near meCafés near meCasual Dining near meClubs near meCocktail Bars near meConfectioneries near meDessert Parlors near meDhabas near meFine Dining near meFood Courts near meFood Trucks near meIrani Cafes near meKiosks near meLounges near meMicrobreweries near mePaan Shop near mePubs near meQuick Bites near meShacks near meSweet Shops near me</p></div>
+      
+        <div class="q3">Top Restaurant Chains</div>
+        <div class="a3"><p>BikanervalaBiryani BluesBurger KingDomino'sDunkin' DonutsKFCKrispy KremeMcDonald'sPizza HutWOW! Momo</p></div>
+    
+        <div class="q4">Cities We Deliver To </div>
+        <div class="a4"><p>Delhi NCR Kolkata Mumbai Bengaluru  Pune Hyderabad Chennai Lucknow Kochi Jaipur Ahmedabad Chandigarh Goa Indore Gangtok Nashik Ooty Shimla Ludhiana Guwahati Amritsar Kanpur Allahabad Aurangabad Bhopal Ranchi Visakhapatnam Bhubaneswar Coimbatore Mangalore Vadodara Nagpur Agra Dehradun Mysore Puducherry Surat Varanasi Patna Udaipur Srinagar Khajuraho Neemrana Cuttack Trivandrum Haridwar Leh Pushkar Rajkot Madurai Kozhikode Alappuzha Thrissur Manipal Vijayawada Jodhpur Kota Ajmer Mussoorie Rishikesh Jalandhar Jammu Manali All delivery cities</p></div> -->
+      </section>
+
+
+
+      <section id="footer">
+        
+        <img src="./zom.avif" alt="">
+
+        <div class="Button">
+          <button>India  <i class="fa-solid fa-angle-down"></i></button>
+          <button><i class="fa-solid fa-globe"></i>  English  <i class="fa-solid fa-angle-down"></i></button>
+        </div>
+        <div class="footer1">
+            <div><a href="" style="color: black;">ABOUT ZOMATO</a></div>
+            <div><a href="">Who We Are</a></div>
+            
+            <div><a href="">Blog</a></div>
+          
+            <div><a href="">Work With Us</a></div>
+            <div><a href="">Investor Relations</a></div>
+            <div><a href="">Report Fraud</a></div>  
+            <div><a href="">Press Kit</a></div>      
+            <div><a href="">Contact Us</a></div>      
+
+        </div>
+
+        <div class="footer1">
+            <div><a href="" style="color: black;">ZOMAVERSE</a></div>
+            <div><a href="">Zomato</a></div>
+            <div><a href="">Blinkit</a></div>
+            
+            <div><a href="">Feeding India</a></div>
+            <div><a href="">Hyperpure</a></div>
+            <div><a href="">Zomaland</a></div>
+            <div><a href="">Weather Union</a></div>
+        </div>
+
+        <div class="footer1">
+            <div><a href="" style="color: black;">FOR RESTAURANTS</a></div>
+            <div><a href="">Partner With Us</a></div>
+            <div><a href="">Apps For You</a></div>
+        </div>
+
+        <div class="footer1">
+            <div><a href="" style="color: black;">LEARN MORE</a></div>
+            <div><a href="">Privacy</a></div>
+            <div><a href="">Security
+            </a></div>
+            <div><a href="">Terms</a></div>
+            <div><a href="">Sitemap</a></div>
+
+        </div>
+
+        <div class="footer1">
+          <div><a href="" style="color: black;">SOCIAL LINKS</a></div>
+         <div class="social_link">
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-youtube"></i>
+         </div>
+
+         <div class="zomato_logo">
+            <img src="./apple.webp" alt="">
+         </div>
+
+
+         <div class="zomato_logo1">
+          <img src="./gplay.webp" alt="">
+       </div>
+
+      </div>
+    </section>
+
+    </div>
+    <section class="end">
+      <div class="bor"></div>
+      <div><p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p></div>
+    </section>
+<!-- 
+    <script>
+      $(document).ready(function(){
+          $(".a1, .a2, .a3 ,.a4").hide()
+          $(".q1").click(function(){
+              $('.a1').slideToggle()
+          })
+      })
+      $(document).ready(function(){
+          $(".a1, .a2 ,.a3 ,.a4").hide()
+          $(".q2").click(function(){
+              $('.a2').slideToggle()
+          })
+      })
+      $(document).ready(function(){
+          $(".a1, .a2 ,.a3 ,.a4").hide()
+          $(".q3").click(function(){
+              $('.a3').slideToggle()
+          })
+      })
+      $(document).ready(function(){
+          $(".a1, .a2, .a3 ,.a4").hide()
+          $(".q4").click(function(){
+              $('.a4').slideToggle()
+          })
+      })
+  </script> -->
+  </body>
+</html>
